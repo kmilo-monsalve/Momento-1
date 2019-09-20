@@ -18,7 +18,9 @@ stdin.addListener("data", function(d) {
         for (let index = 0; index <= 0; index++) {
             tabla += "hola " + dato + "\n";
             tabla += "Kon'nichiwa " + dato + "\n";
-            tabla += "hello " + dato;
+            tabla += "hello " + dato + "\n";
+            tabla += "geia " + dato + "\n";
+            tabla += "ola " + dato;
         }
         
         fs.writeFile(
